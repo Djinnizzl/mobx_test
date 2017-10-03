@@ -1,0 +1,13 @@
+.animFloat {
+	animation: float 1.4s infinite alternate ease-in-out;
+}
+
+@keyframes float {
+	0% {
+		transform: translateY(-6px);
+	}
+
+	100% {
+		transform: translateY(6px);
+	}
+}

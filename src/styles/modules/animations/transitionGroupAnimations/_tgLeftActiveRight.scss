@@ -1,0 +1,31 @@
+.tgLeftActiveRight {
+
+	&-enter {
+
+		opacity: 0.01;
+		transform: translate3d(-50px, 0, 0);
+	}
+
+
+	&-enter.tgLeftActiveRight-enter-active {
+
+		opacity: 1;
+		transform: translate3d(0px, 0, 0);
+		transition: 500ms ease-in;
+	}
+
+
+	&-leave {
+
+		opacity: 1;
+		transform: translate3d(0px, 0, 0);
+	}
+
+
+	&-leave.tgLeftActiveRight-leave-active {
+
+		opacity: 0.01;
+		transform: translate3d(50px, 0, 0);
+		transition: 300ms ease-in;
+	}
+}

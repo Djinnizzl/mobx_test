@@ -1,0 +1,33 @@
+.animFlickerIn {
+	animation: flickerIn 4s forwards;
+}
+
+@keyframes flickerIn {
+	0% {
+		opacity: 0;
+	}
+
+	65% {
+		opacity: 0;
+	}
+
+	70% {
+		opacity: 0.4;
+	}
+
+	72% {
+		opacity: 0.1;
+	}
+
+	74% {
+		opacity: 0.4;
+	}
+
+	75% {
+		opacity: 0.1;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
