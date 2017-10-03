@@ -1,5 +1,5 @@
 .animFlickerIn {
-	animation: flickerIn 4s forwards;
+	animation: flickerIn 4s forwards ease-out;
 }
 
 @keyframes flickerIn {
@@ -27,7 +27,11 @@
 		opacity: 0.1;
 	}
 
-	100% {
+	80% {
 		opacity: 1;
+	}
+
+	100% {
+		opacity: 0.6;
 	}
 }
